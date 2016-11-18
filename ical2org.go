@@ -6,19 +6,16 @@ import "log"
 import "os"
 
 func main() {
-	// icalFilePath := "sample-ics-files/bastille.ics"
-	// icalFilePath := "sample-ics-files/small.ics"
-	icalFilePath := "sample-ics-files/broken.ics"
-	icalData, err := ioutil.ReadFile(icalFilePath)
+	icalData, err := ioutil.ReadAll(os.Stdin)
 	if err != nil {
-		log.Fatalf("Unable to read file: %s", icalFilePath)
+		log.Fatalf("Unable to read from stdin")
 		os.Exit(65) // EX_DATAERR, see FreeBSD's sysexits(3),
 	}
 	// log.Println("Data:")
 	// log.Println(icalData)
 	icalNode, err := ical.ParseCalendar(string(icalData))
 	if err != nil {
-		log.Fatalf("Unable to read file: %s", icalFilePath)
+		log.Fatalf("Parse error")
 		os.Exit(65) // EX_DATAERR, see FreeBSD's sysexits(3),
 	}
 	log.Println("Node:")
