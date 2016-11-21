@@ -304,6 +304,51 @@ DTSTAMP:20161115T172742Z
 SEQUENCE:4
 END:VEVENT
 BEGIN:VEVENT
+UID:02cd9b30-41dc-4530-8466-600a634cc4df
+SUMMARY:Avancement Git
+DESCRIPTION:Nouvelle demande de réunion ci-dessous :\n\nSujet : Avancement G
+ it \nOrganisateur: "Nicolas DUMONT" <nicolas.dumont@stormshield.eu> \n\nEndr
+ oit : "VDA CONFICKER (12) / VISIO" <conficker@stormshield.eu> \nRessources :
+  conficker@stormshield.eu \nHeure: Jeudi 24 Novembre 2016\, 11:00:00 - 12:30
+ :00 GMT +01:00 Bruxelles\, Copenhague\, Madrid\, Paris\n \nObligatoire: vale
+ ntin.vergez@stormshield.eu\; alexandre.martins@stormshield.eu\; emeric.poupo
+ n@stormshield.eu\; stephane.rochoy@stormshield.eu\; thomas.montagne@stormshi
+ eld.eu\; arnaud.blondel@stormshield.eu\; olivier.szika@stormshield.eu \nFacu
+ ltatif: matthieu.arnoux@stormshield.eu\; yvan.vanhullebus@stormshield.eu \n\
+ n*~*~*~*~*~*~*~*~*~*\n\n\n
+LOCATION:blaster@stormshield.eu
+ATTENDEE;CN=Valentin VERGEZ;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE:mailto:valentin.vergez@stormshield.eu
+ATTENDEE;CN=Alexandre Martins;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSV
+ P=TRUE:mailto:alexandre.martins@stormshield.eu
+ATTENDEE;CN=emeric poupon;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TR
+ UE:mailto:emeric.poupon@stormshield.eu
+ATTENDEE;CN="Stéphane Rochoy";ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSV
+ P=TRUE:mailto:stephane.rochoy@stormshield.eu
+ATTENDEE;CN=Thomas MONTAGNE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE:mailto:thomas.montagne@stormshield.eu
+ATTENDEE;CN=Arnaud BLONDEL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=T
+ RUE:mailto:arnaud.blondel@stormshield.eu
+ATTENDEE;CN=olivier szika;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TR
+ UE:mailto:olivier.szika@stormshield.eu
+ATTENDEE;CN=Matthieu ARNOUX;ROLE=OPT-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE:mailto:matthieu.arnoux@stormshield.eu
+ATTENDEE;CN=VANHULLEBUS Yvan;ROLE=OPT-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP
+ =TRUE:mailto:yvan.vanhullebus@stormshield.eu
+ATTENDEE;CN=VDA BLASTER (16) / VISIO;CUTYPE=RESOURCE;ROLE=NON-PARTICIPANT;PA
+ RTSTAT=NEEDS-ACTION;RSVP=TRUE:mailto:blaster@stormshield.eu
+ORGANIZER;CN=Nicolas DUMONT:mailto:nicolas.dumont@stormshield.eu
+DTSTART;TZID="Europe/Brussels":20161125T110000
+DTEND;TZID="Europe/Brussels":20161125T123000
+STATUS:CONFIRMED
+CLASS:PUBLIC
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+TRANSP:OPAQUE
+LAST-MODIFIED:20161118T134741Z
+DTSTAMP:20161118T134741Z
+SEQUENCE:2
+END:VEVENT
+BEGIN:VEVENT
 UID:040000008200E00074C5B7101A82E008000000000036FBC4BB9ACA010000000000000000
  1000000058444770B04E754B89EC735293782E05
 SUMMARY:Entretien Stéphane R.
@@ -8088,6 +8133,47 @@ DTSTAMP:20110721T160836Z
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:040000008200E00074C5B7101A82E00800000000A054300C2440D2010000000000000000
+ 10000000B474D43E7DC8B84F9666D33A642DAB17
+RRULE:FREQ=MONTHLY;COUNT=12;BYDAY=3TU
+SUMMARY:REUNION DE DUP
+DESCRIPTION:Bonjour à tous\n\nAfin de bloquer notre agenda pour 2017 \n\nJe 
+ vous laisse bloquer les salles comme d’habitude\n\nMerci \n\nSylvie\n
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN
+ ">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Server versi
+ on rmj.rmm.rup.rpr">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted from 
+ text/rtf format -->\n\n<P DIR=LTR><SPAN LANG="fr"><FONT FACE="Calibri">Bonjo
+ ur à tous</FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="fr"><FONT FACE="Calibr
+ i">Afin de bloquer notre agenda pour 2017 </FONT></SPAN></P>\n\n<P DIR=LTR><
+ SPAN LANG="fr"><FONT FACE="Calibri">Je vous laisse bloquer les salles comme 
+ d’habitude</FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="fr"><FONT FACE="Calib
+ ri">Merci </FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="fr"><FONT FACE="Calib
+ ri">Sylvie</FONT></SPAN><SPAN LANG="fr"></SPAN></P>\n\n</BODY>\n</HTML>
+LOCATION:VISIO
+ATTENDEE;CN=Eric ZANE:mailto:eric.zane@stormshield.eu
+ATTENDEE;CN=Matthieu ARNOUX:mailto:matthieu.arnoux@stormshield.eu
+ATTENDEE;CN=Sylvie MASQUELIER:mailto:sylvie.masquelier@stormshield.eu
+ATTENDEE;CN=Manon HASARD:mailto:manon.hasard@stormshield.eu
+ATTENDEE;CN=Paul FARIELLO:mailto:paul.fariello@stormshield.eu
+ATTENDEE;CN=Amadeu DOREGO:mailto:amadeu.dorego@stormshield.eu
+ATTENDEE;CN=Stephane Rochoy;PARTSTAT=ACCEPTED:mailto:stephane.rochoy@stormsh
+ ield.eu
+ATTENDEE;CN=Adda HASSANI:mailto:adda.hassani@stormshield.eu
+ATTENDEE;CN=Pierre CALAIS:mailto:pierre.calais@stormshield.eu
+ATTENDEE;CN=Pierre-Yves HENTZEN:mailto:pierre-yves.hentzen@stormshield.eu
+PRIORITY:5
+ORGANIZER;CN=Sylvie BLONDEL:mailto:sylvie.blondel@stormshield.eu
+DTSTART;TZID="Europe/Brussels":20170117T100000
+DTEND;TZID="Europe/Brussels":20170117T120000
+STATUS:CONFIRMED
+CLASS:PUBLIC
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+TRANSP:OPAQUE
+LAST-MODIFIED:20161116T151111Z
+DTSTAMP:20161116T151111Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:040000008200E00074C5B7101A82E00800000000A0736B446BD2CF010000000000000000
  1000000018CE2C6F4B22B240B268297A7EC3DA96
 SUMMARY:Anglais
@@ -11720,21 +11806,27 @@ UID:040000008200E00074C5B7101A82E00800000000F0303CDA5A3FD2010000000000000000
  100000003DB567507403A542A091BC798A2D116A
 SUMMARY:QUESTIONS/REPONSES ACCORDS CET AMENAGEMENTS TEMPS DE TRAVAIL CLASSIF
  ICATIONS
-DESCRIPTION:Bonjour à tous\n\nComme convenu suite à mon envoi de cet apm \n\
- nMerci d’avance\n\nSylvie\n
+DESCRIPTION:Bonjour à tous\n\nJe décale au lendemain pour que Cécile Turco p
+ uisse nous rejoindre sur l’aspect classification\n\nMerci d’avance\n\nSylvie
+ \n\n
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN
  ">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Server versi
  on rmj.rmm.rup.rpr">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted from 
- text/rtf format -->\n\n<P DIR=LTR><SPAN LANG="fr"><FONT FACE="Calibri">Bonjo
- ur à tous</FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="fr"><FONT FACE="Calibr
- i">Comme convenu suite à mon envoi de cet apm </FONT></SPAN></P>\n\n<P DIR=L
- TR><SPAN LANG="fr"><FONT FACE="Calibri">Merci d’avance</FONT></SPAN></P>\n\n
- <P DIR=LTR><SPAN LANG="fr"><FONT FACE="Calibri">Sylvie</FONT></SPAN><SPAN LA
- NG="fr"></SPAN></P>\n\n</BODY>\n</HTML>
+ text/rtf format -->\n\n<P DIR=LTR><SPAN LANG="fr"></SPAN><SPAN LANG="fr"><FO
+ NT FACE="Calibri">Bonjour à tous</FONT></SPAN><SPAN LANG="fr"></SPAN><SPAN L
+ ANG="fr"></SPAN><SPAN LANG="fr"></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="fr"></
+ SPAN><SPAN LANG="fr"><FONT FACE="Calibri">Je décale au lendemain pour que Cé
+ cile Turco puisse nous rejoindre sur l’aspect classification</FONT></SPAN><S
+ PAN LANG="fr"></SPAN><SPAN LANG="fr"></SPAN><SPAN LANG="fr"></SPAN></P>\n\n<
+ P DIR=LTR><SPAN LANG="fr"></SPAN><SPAN LANG="fr"><FONT FACE="Calibri">Merci 
+ d’avance</FONT></SPAN><SPAN LANG="fr"></SPAN><SPAN LANG="fr"></SPAN><SPAN LA
+ NG="fr"></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="fr"></SPAN><SPAN LANG="fr"><FO
+ NT FACE="Calibri">Sylvie</FONT></SPAN><SPAN LANG="fr"></SPAN><SPAN LANG="fr"
+ ></SPAN><SPAN LANG="fr"></SPAN></P>\n\n</BODY>\n</HTML>
 LOCATION:VISIO ST EXUPERY SODIUM BLASTER
 ATTENDEE;CN=Amadeu DOREGO:mailto:amadeu.dorego@stormshield.eu
-ATTENDEE;CN=Stephane Rochoy;PARTSTAT=ACCEPTED:mailto:stephane.rochoy@stormsh
- ield.eu
+ATTENDEE;CN=Stephane Rochoy;PARTSTAT=NEEDS-ACTION;RSVP=TRUE:mailto:stephane.
+ rochoy@stormshield.eu
 ATTENDEE;CN=Adda HASSANI:mailto:adda.hassani@stormshield.eu
 ATTENDEE;CN=Laurent JUILLEROT:mailto:laurent.juillerot@stormshield.eu
 ATTENDEE;CN="Marlène AUPART":mailto:marlene.aupart@stormshield.eu
@@ -11748,17 +11840,24 @@ ATTENDEE;CN=Matthieu ARNOUX:mailto:matthieu.arnoux@stormshield.eu
 ATTENDEE;CN=Sylvie MASQUELIER:mailto:sylvie.masquelier@stormshield.eu
 ATTENDEE;CN=Manon HASARD:mailto:manon.hasard@stormshield.eu
 ATTENDEE;CN=Paul FARIELLO:mailto:paul.fariello@stormshield.eu
+ATTENDEE;CN="Cécile TURCO":mailto:cecile.turco@stormshield.eu
 PRIORITY:5
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MS-OLK-APPTLASTSEQUENCE:1
+X-MS-OLK-APPTSEQTIME:20161115T151058Z
+X-MS-OLK-AUTOSTARTCHECK:FALSE
+X-MS-OLK-CONFTYPE:0
 ORGANIZER;CN=Sylvie BLONDEL:mailto:sylvie.blondel@stormshield.eu
-DTSTART;TZID="Europe/Brussels":20161201T143000
-DTEND;TZID="Europe/Brussels":20161201T163000
+DTSTART;TZID="Europe/Brussels":20161202T110000
+DTEND;TZID="Europe/Brussels":20161202T123000
 STATUS:CONFIRMED
 CLASS:PUBLIC
 X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
 TRANSP:OPAQUE
-LAST-MODIFIED:20161115T151059Z
-DTSTAMP:20161115T151058Z
-SEQUENCE:0
+LAST-MODIFIED:20161118T161202Z
+DTSTAMP:20161118T161202Z
+SEQUENCE:2
 END:VEVENT
 BEGIN:VEVENT
 UID:040000008200E00074C5B7101A82E00800000000F034EF0256ABCC010000000000000000
@@ -12101,8 +12200,8 @@ ATTENDEE;CN=Eric ZANE:mailto:eric.zane@stormshield.eu
 ATTENDEE;CN=Amadeu DOREGO:mailto:amadeu.dorego@stormshield.eu
 ATTENDEE;CN=Paul FARIELLO:mailto:paul.fariello@stormshield.eu
 ATTENDEE;CN=Manon HASARD:mailto:manon.hasard@stormshield.eu
-ATTENDEE;CN=Stephane Rochoy;PARTSTAT=NEEDS-ACTION;RSVP=TRUE:mailto:stephane.
- rochoy@stormshield.eu
+ATTENDEE;CN=Stephane Rochoy;PARTSTAT=ACCEPTED:mailto:stephane.rochoy@stormsh
+ ield.eu
 ATTENDEE;CN=Sylvie MASQUELIER:mailto:sylvie.masquelier@stormshield.eu
 ATTENDEE;CN=Adda HASSANI:mailto:adda.hassani@stormshield.eu
 ATTENDEE;CN=Meeting room SODIUM:mailto:meetingroomsodium@stormshield.eu
@@ -12110,12 +12209,6 @@ ATTENDEE;CN=VDA NIMDA (22) / VISIO:mailto:nimda@stormshield.eu
 ATTENDEE;CN=Lyon SAINT EXUPERY (10) / VISIO:mailto:salle_saint_exupery@storm
  shield.eu
 PRIORITY:5
-X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
-X-MICROSOFT-CDO-IMPORTANCE:1
-X-MS-OLK-APPTLASTSEQUENCE:10
-X-MS-OLK-APPTSEQTIME:20160830T115207Z
-X-MS-OLK-AUTOSTARTCHECK:FALSE
-X-MS-OLK-CONFTYPE:0
 ORGANIZER;CN=Matthieu ARNOUX:mailto:matthieu.arnoux@stormshield.eu
 DTSTART;TZID="Europe/Brussels":20161206T160000
 DTEND;TZID="Europe/Brussels":20161206T173000
@@ -12693,6 +12786,23 @@ X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
 TRANSP:OPAQUE
 LAST-MODIFIED:20150206T145342Z
 DTSTAMP:20150206T145342Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:0e049d0c-678b-483c-9c80-56e7789a0008
+SUMMARY:Résa salle CE
+LOCATION:blaster@stormshield.eu
+ATTENDEE;CN=VDA BLASTER (16) / VISIO;CUTYPE=RESOURCE;ROLE=NON-PARTICIPANT;PA
+ RTSTAT=ACCEPTED:mailto:blaster@stormshield.eu
+ORGANIZER;CN="Stéphane Rochoy":mailto:stephane.rochoy@stormshield.eu
+DTSTART;TZID="Europe/Brussels":20170117T100000
+DTEND;TZID="Europe/Brussels":20170117T120000
+STATUS:CONFIRMED
+CLASS:PUBLIC
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+TRANSP:OPAQUE
+LAST-MODIFIED:20161117T135048Z
+DTSTAMP:20161117T135048Z
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
@@ -14461,6 +14571,36 @@ TRANSP:TRANSPARENT
 LAST-MODIFIED:20140912T061101Z
 DTSTAMP:20140912T061101Z
 SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:2843b210-bdbc-484b-84b8-99f117d8f529
+SUMMARY:Servers d'update
+DESCRIPTION:Nouvelle demande de réunion ci-dessous :\n\nSujet : Servers d'up
+ date \nOrganisateur: "Nicolas DUMONT" <nicolas.dumont@stormshield.eu> \n\nEn
+ droit : conficker@stormshield.eu \nRessources : conficker@stormshield.eu \nH
+ eure: Jeudi 24 Novembre 2016\, 15:00:00 - 16:00:00 GMT +01:00 Bruxelles\, Co
+ penhague\, Madrid\, Paris\n \nInvités: pierre-sylvain.desse@stormshield.eu\;
+  stephane.rochoy@stormshield.eu \n\n\n*~*~*~*~*~*~*~*~*~*\n\n\n
+LOCATION:conficker@stormshield.eu\; "Lyon SAINT EXUPERY (10) / VISIO" <salle
+ _saint_exupery@stormshield.eu>
+ATTENDEE;CN=Pierre-Sylvain DESSE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;
+ RSVP=TRUE:mailto:pierre-sylvain.desse@stormshield.eu
+ATTENDEE;CN="Stéphane Rochoy";ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED:mailto:
+ stephane.rochoy@stormshield.eu
+ATTENDEE;CUTYPE=RESOURCE;ROLE=NON-PARTICIPANT;PARTSTAT=ACCEPTED:mailto:confi
+ cker@stormshield.eu
+ATTENDEE;CUTYPE=RESOURCE;ROLE=NON-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRU
+ E:mailto:salle_saint_exupery@stormshield.eu
+ORGANIZER;CN=Nicolas DUMONT:mailto:nicolas.dumont@stormshield.eu
+DTSTART;TZID="Europe/Brussels":20161124T150000
+DTEND;TZID="Europe/Brussels":20161124T160000
+STATUS:CONFIRMED
+CLASS:PUBLIC
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+TRANSP:OPAQUE
+LAST-MODIFIED:20161116T211039Z
+DTSTAMP:20161116T211039Z
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:2927b8ac-66e0-46ab-a6ba-9b4438263feb
@@ -23968,6 +24108,40 @@ X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
 TRANSP:OPAQUE
 LAST-MODIFIED:20110412T161409Z
 DTSTAMP:20110412T161409Z
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:e35fc817-0e17-450d-a524-fa8ffd15258e
+SUMMARY:Point d'avancement Packager
+DESCRIPTION:\n
+X-ALT-DESC;FMTTYPE=text/html:<html><body id='htmlmode'><h3>Nouvelle demande 
+ de réunion ci-dessous :</h3>\n\n<p>\n<table border='0'>\n<tr><th align=left>
+ Sujet :</th><td>Point d'avancement Packager </td></tr>\n<tr><th align=left>O
+ rganisateur:</th><td>"Nicolas DUMONT" &lt\;nicolas.dumont@stormshield.eu&gt\
+ ; </td></tr>\n</table>\n<p>\n<table border='0'>\n<tr><th align=left>Endroit 
+ :</th><td>conficker@stormshield.eu </td></tr>\n<tr><th align=left>Ressources
+  :</th><td>conficker@stormshield.eu </td></tr>\n<tr><th align=left>Heure:</t
+ h><td>Mardi 22 Novembre 2016\, 16:00:00 - 17:30:00 GMT +01:00 Bruxelles\, Co
+ penhague\, Madrid\, Paris\n </td></tr></table>\n<p>\n<table border='0'>\n<tr
+ ><th align=left>Invités:</th><td>jean-yves.daniel@stormshield.eu\; stephane.
+ rochoy@stormshield.eu </td></tr>\n</table>\n<div>*~*~*~*~*~*~*~*~*~*</div><b
+ r></body></html>
+LOCATION:conficker@stormshield.eu
+ATTENDEE;CN=jean-yves daniel;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP
+ =TRUE:mailto:jean-yves.daniel@stormshield.eu
+ATTENDEE;CN="Stéphane Rochoy";ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED:mailto:
+ stephane.rochoy@stormshield.eu
+ATTENDEE;CUTYPE=RESOURCE;ROLE=NON-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRU
+ E:mailto:conficker@stormshield.eu
+ORGANIZER;CN=Nicolas DUMONT:mailto:nicolas.dumont@stormshield.eu
+DTSTART;TZID="Europe/Brussels":20161122T160000
+DTEND;TZID="Europe/Brussels":20161122T173000
+STATUS:CONFIRMED
+CLASS:PUBLIC
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+TRANSP:OPAQUE
+LAST-MODIFIED:20161116T204548Z
+DTSTAMP:20161116T204548Z
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
