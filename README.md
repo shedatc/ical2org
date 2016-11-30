@@ -24,8 +24,8 @@ and the corresponding generated node:
       Hello, World!!!
 
 Here are how event properties are mapped onto the Org node:
-- The summary is mapped onto the node name;
-- the description to the node body;
-- the UID to the ID property;
-- the STATUS and LOCATION to the corresponding properties;
-- and the DTSTART and DTEND are used to bind a date range to the node.
+- The `SUMMARY` is mapped onto the node name;
+- the `DESCRIPTION` to the node body;
+- the `UID` to the `ID` property;
+- the `STATUS` and `LOCATION` to the corresponding properties;
+- and the `DTSTART` and `DTEND` are used to bind a date range to the node.
