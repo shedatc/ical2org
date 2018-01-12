@@ -33,7 +33,12 @@ func (f TimeFrame) contains(t time.Time) bool {
 const TwoWeeks = 336 * time.Hour // 2 weeks = 2 x 7 x 24 hours
 
 func (e *Events) ConsumeICal(c *goics.Calendar, err error) error {
-	fmt.Println("-*- eval: (auto-revert-mode 1); -*-")
+	fmt.Println("-*- eval: (auto-revert-mode 1); -*-") // Ensure Emacs will auto-detect the modifications.
+
+	fmt.Printf("* Work :@work:\n")
+	fmt.Printf("  :PROPERTIES:\n")
+	fmt.Printf("  :CATEGORY: Work Agenda\n")
+	fmt.Printf("  :END:\n")
 
 	totalCounter := 0
 	processedCounter := 0
@@ -118,37 +123,37 @@ func (e *Events) ConsumeICal(c *goics.Calendar, err error) error {
 		processedCounter++
 
 		fmt.Printf("\n")
-		fmt.Printf("* %s\n", summary)
-		if haveEndDate {
-			fmt.Printf("  %s\n", orgDateRange(start, end))
-		} else {
-			fmt.Printf("  %s\n", orgDate(start))
-		}
+		fmt.Printf("** %s\n", summary)
 
-		fmt.Printf("  :PROPERTIES:\n")
-		fmt.Printf("  :ID: %s\n", uid)
-
+		// Build the :PROPERTIES: drawer.
+		fmt.Printf("   :PROPERTIES:\n")
+		fmt.Printf("   :ID: %s\n", uid)
 		value, ok = node["LOCATION"]
 		if ok {
 			location := value.Val
 			log.Printf("| location=\"%v\"\n", location)
-			fmt.Printf("  :LOCATION: %s\n", location)
+			fmt.Printf("   :LOCATION: %s\n", location)
 		}
-
 		value, ok = node["STATUS"]
 		if ok {
 			status := value.Val
 			log.Printf("| status=\"%v\"\n", status)
-			fmt.Printf("  :STATUS: %s\n", status)
+			fmt.Printf("   :STATUS: %s\n", status)
 		}
+		fmt.Printf("   :END:\n")
 
-		fmt.Printf("  :END:\n")
+		// Add a timestamp.
+		if haveEndDate {
+			fmt.Printf("   %s\n", orgDateRange(start, end))
+		} else {
+			fmt.Printf("   %s\n", orgDate(start))
+		}
 
 		value, ok = node["DESCRIPTION"]
 		if ok {
 			description := value.Val
 			log.Printf("| description=\"%v\"\n", description)
-			fmt.Printf("\n  %s\n", description)
+			fmt.Printf("\n   %s\n", description)
 		}
 		log.Printf("` PROCESSED\n")
 	}
