@@ -14,14 +14,20 @@ Here is a sample event:
     END:VEVENT
 
 and the corresponding generated node:
+```
+-*- eval: (auto-revert-mode 1); -*-
+* Work :@work:
+  :PROPERTIES:
+  :CATEGORY: Work Agenda
+  :END:
+** Bastille Day Party
+    <2016-11-22 Tue 17:00>--<2016-11-27 Sun 03:59>
+    :PROPERTIES:
+    :ID: uid1@example.com
+    :END:
 
-    * Bastille Day Party
-      <2016-11-22 Tue 17:00>--<2016-11-27 Sun 03:59>
-      :PROPERTIES:
-      :ID: uid1@example.com
-      :END:
-    
-      Hello, World!!!
+    Hello, World!!!
+```
 
 Here are how event properties are mapped onto the Org node:
 - The `SUMMARY` is mapped onto the node name;
